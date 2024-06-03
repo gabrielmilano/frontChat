@@ -1,0 +1,96 @@
+/* Estilos para centralizar o conteúdo e definir a aparência do chat */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para a página de login */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-container input,
+.login-container button {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  background-color: #bfc3c7;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.chat-container h1 {
+  margin-bottom: 20px;
+}
+
+.chat-container button {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos para o formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+ul.messages {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+li.my-message {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #dcf8c6;
+  text-align: right;
+  border-radius: 10px;
+}
+
+li.other-message {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f1f0f0;
+  text-align: left;
+  border-radius: 10px;
+}

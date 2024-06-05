@@ -28,12 +28,11 @@
 .chat-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  min-height: 100vh;
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
+  position: relative; /* Adicionado para conter o formulário fixo */
 }
 
 .chat-container h1 {
@@ -53,27 +52,35 @@
 /* Estilos para o formulário */
 form {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
   width: 100%;
   max-width: 600px;
+  background: white;
+  padding: 10px;
+  box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000; /* Garante que o formulário fique sobre outros elementos */
 }
 
-input {
-  margin-bottom: 10px;
+form input {
+  margin-right: 10px;
   padding: 10px;
   font-size: 16px;
-  width: 100%;
+  width: 80%;
+  box-sizing: border-box;
 }
 
-button {
+form button {
   padding: 10px;
   font-size: 16px;
   background-color: #007bff;
   color: white;
   border: none;
   cursor: pointer;
+  flex-shrink: 0;
 }
 
 ul.messages {
@@ -81,7 +88,9 @@ ul.messages {
   padding: 0;
   width: 100%;
   max-width: 600px;
-  margin-bottom: 20px;
+  margin-bottom: 80px; /* Espaço extra para o formulário fixo */
+  display: flex;
+  flex-direction: column;
 }
 
 li.my-message {
@@ -92,6 +101,8 @@ li.my-message {
   border-radius: 10px;
   color: black; /* Cor da fonte das mensagens do usuário */
   align-self: flex-end; /* Alinha as mensagens do usuário à direita */
+  max-width: 80%; /* Limita a largura máxima da mensagem */
+  word-wrap: break-word; /* Quebra palavras longas */
 }
 
 li.other-message {
@@ -102,4 +113,6 @@ li.other-message {
   border-radius: 10px;
   color: black; /* Cor da fonte das mensagens de outros usuários */
   align-self: flex-start; /* Alinha as mensagens de outros usuários à esquerda */
+  max-width: 80%; /* Limita a largura máxima da mensagem */
+  word-wrap: break-word; /* Quebra palavras longas */
 }

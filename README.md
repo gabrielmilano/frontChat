@@ -1,30 +1,52 @@
-# React + TypeScript + Vite
+# Projeto Chat com React e Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Alunos
+- Gabriel Guzzatti
+- Gabriel Milano
 
-Currently, two official plugins are available:
+## Professor Orientador
+- Lucas Ferreira
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Descrição
+Este projeto é uma aplicação web de chat desenvolvida utilizando React, TypeScript e Vite. Ele permite que os usuários façam login com um nome de usuário e participem de uma sessão de chat, onde podem enviar e receber mensagens em tempo real. As mensagens são armazenadas no localStorage do navegador, permitindo que persistam entre recarregamentos de página.
 
-## Expanding the ESLint configuration
+## Estrutura do Projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+public/
+src/
+  ├── assets/
+  ├── App.css
+  ├── App.tsx
+  ├── Chat.tsx
+  ├── index.css
+  ├── Login.tsx
+  ├── main.tsx
+  ├── vite-env.d.ts
+.eslintrc.cjs
+.gitignore
+index.html
+package-lock.json
+package.json
+README.md
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+_gitignore
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Funcionalidades
+- **Login**: Usuários podem entrar no chat informando um nome de usuário.
+- **Chat**: Usuários podem enviar e visualizar mensagens em um chat em grupo. As mensagens são diferenciadas por usuário.
+- **Persistência de Dados**: As mensagens são armazenadas no localStorage do navegador.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Pré-requisitos
+- Node.js instalado
+- npm (Node Package Manager) instalado
+
+## Tecnologias Utilizadas
+- React
+- TypeScript
+- Vite
+- CSS
+

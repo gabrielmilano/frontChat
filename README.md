@@ -12,26 +12,26 @@ Este projeto é uma aplicação web de chat desenvolvida utilizando React, TypeS
 
 ## Estrutura do Projeto
 
-public/
-src/
-  ├── assets/
-  ├── App.css
-  ├── App.tsx
-  ├── Chat.tsx
-  ├── index.css
-  ├── Login.tsx
-  ├── main.tsx
-  ├── vite-env.d.ts
-.eslintrc.cjs
-.gitignore
-index.html
-package-lock.json
-package.json
-README.md
-tsconfig.json
-tsconfig.node.json
-vite.config.ts
-_gitignore
+public/ <br>
+src/ <br>
+  ├── assets/ <br>
+  ├── App.css <br> 
+  ├── App.tsx <br> 
+  ├── Chat.tsx <br>
+  ├── index.css <br>
+  ├── Login.tsx <br>
+  ├── main.tsx <br>
+  ├── vite-env.d.ts <br>
+.eslintrc.cjs <br>
+.gitignore <br>
+index.html <br>
+package-lock.json <br>
+package.json <br>
+README.md <br>
+tsconfig.json <br>
+tsconfig.node.json <br>
+vite.config.ts <br>
+_gitignore <br>
 
 
 ## Funcionalidades

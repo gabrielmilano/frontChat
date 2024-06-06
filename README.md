@@ -1,5 +1,5 @@
-# Projeto Chat com React e Vite
-
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=09C3D7&size=35&left=true&vCenter=true&width=1000&lines=Trabalho+de+Front+End;Chat+de+atendimento+:%29)](https://git.io/typing-svg)
+  
 ## Alunos
 - Gabriel Guzzatti
 - Gabriel Milano

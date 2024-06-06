@@ -1,1 +1,2 @@
-yolo- badge = 10
+extraordinareBadge = 1000
+

@@ -14,7 +14,7 @@ Satc
 2024
 
 ## Descrição
-Este projeto é uma aplicação web de chat desenvolvida utilizando React, TypeScript e Vite. Ele permite que os usuários façam login com um nome de usuário e participem de uma sessão de chat, onde podem enviar e receber mensagens em tempo real. As mensagens são armazenadas no localStorage do navegador, permitindo que persistam entre recarregamentos de página.
+Este projeto é uma aplicação web de chat desenvolvida utilizando React, TypeScript e Vite. Ele permite que os usuários façam login com um nome de usuário e participem de uma sessão de chat, onde podem enviar e receber mensagens em tempo real. As mensagens são armazenadas no localStorage do navegador, permitindo que persistam entre recarregamentos de página em cada servidor.
 
 ## Estrutura do Projeto
 

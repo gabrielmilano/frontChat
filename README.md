@@ -1,4 +1,4 @@
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=09C3D7&size=35&left=true&vCenter=true&width=1000&lines=Trabalho+de+Front+End;Chat+de+atendimento+:%29)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=000000&size=35&left=true&vCenter=true&width=1000&lines=Trabalho+de+Front+End;Chat+de+atendimento+:%29)](https://git.io/typing-svg)
   
 ## Alunos
 - Gabriel Guzzatti
@@ -7,8 +7,14 @@
 ## Professor Orientador
 - Lucas Ferreira
 
+## Instituição
+Satc
+
+## Ano
+2024
+
 ## Descrição
-Este projeto é uma aplicação web de chat desenvolvida utilizando React, TypeScript e Vite. Ele permite que os usuários façam login com um nome de usuário e participem de uma sessão de chat, onde podem enviar e receber mensagens em tempo real. As mensagens são armazenadas no localStorage do navegador, permitindo que persistam entre recarregamentos de página.
+Este projeto é uma aplicação web de chat desenvolvida utilizando React, TypeScript e Vite. Ele permite que os usuários façam login com um nome de usuário e participem de uma sessão de chat, onde podem enviar e receber mensagens em tempo real. As mensagens são armazenadas no localStorage do navegador, permitindo que persistam entre recarregamentos de página em cada servidor.
 
 ## Estrutura do Projeto
 
